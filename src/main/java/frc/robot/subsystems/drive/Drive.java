@@ -62,9 +62,9 @@ public class Drive extends SubsystemBase {
         new SwerveModulePosition()
       };
 
-  private Alert[] driveDisconnectedAlert = new Alert[4];
-  private Alert[] turnDisconnectedAlert = new Alert[4];
-  private Alert[] turnEncoderDisconnectedAlert = new Alert[4];
+  private Alert[] driveDisconnectedAlert = new Alert[Constants.PP_CONFIG.numModules];
+  private Alert[] turnDisconnectedAlert = new Alert[Constants.PP_CONFIG.numModules];
+  private Alert[] turnEncoderDisconnectedAlert = new Alert[Constants.PP_CONFIG.numModules];
 
   private Alert gyroDisconnectedAlert;
 
