@@ -2,7 +2,7 @@ plugins {
     id "java"
     id "edu.wpi.first.GradleRIO" version "2025.2.1"
     id "com.peterabeles.gversion" version "1.10.3"
-    id "com.diffplug.spotless" version "6.12.0"
+    id "com.diffplug.spotless" version "7.0.2"
 }
 
 java {
